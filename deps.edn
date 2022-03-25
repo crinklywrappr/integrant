@@ -1,6 +1,7 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}
-        com.github.crinklywrappr/dependency {:mvn/version "1.0.9"}}
+        com.github.crinklywrappr/dependency
+        {:git/tag "v1.0.9" :git/sha "64dc0a8"}}
  :aliases
  {:test
   {:extra-paths ["test"]
